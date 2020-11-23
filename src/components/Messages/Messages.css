@@ -1,0 +1,11 @@
+.messages-container {
+  padding: 10px;
+}
+
+.messages-container .message {
+  margin-bottom: 10px;
+}
+
+.messages-container .date {
+  font-size: 0.7rem;
+}

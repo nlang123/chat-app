@@ -1,0 +1,24 @@
+.conversations-container {
+  grid-row: 1 / span 2;
+  margin: 0;
+  padding: 10px 0;
+  list-style-type: none;
+  border-right: solid 2px #0e3858;
+}
+
+.conversations-container button {
+  width: 100%;
+  border: none;
+  background: none;
+  margin-bottom: 4px;
+  cursor: pointer;
+  color: #2c90dd;
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.selected {
+  font-weight: 800;
+  transition: font-weight 0.1s linear;
+}
